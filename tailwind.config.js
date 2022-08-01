@@ -7,6 +7,7 @@ module.exports = {
       backgroundImage: {
         'mossa': "url('../public/espr4.jpeg')",
         'fondo1': "url('../public/fondomosa.png')",
+        'mosssa': "url('../public/mossssa.png')",
       },
   },
   plugins: [],

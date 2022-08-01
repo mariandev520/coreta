@@ -37,12 +37,12 @@ export default function Home() {
                </div>
            </div>
    
-   </section>
-       <section class="bg-gray-50  bg-mossa">
+
+  
            <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                <div class="">
-                   <h2 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">Designed for business teams like yours</h2>
-                   <p class="text-gray-500 sm:text-xl dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+                   <h2 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white"></h2>
+               
                </div>
                <div class="">
                    <div>
@@ -55,37 +55,10 @@ export default function Home() {
                    <div>
                        <div class="">
                         
-                       <h3 class="mb-2 text-xl font-bold dark:text-white"></h3>
+                     
                        <p class="text-gray-500 dark:text-gray-400"></p>
                    </div>
-                   <div>
-                       <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full  lg:h-12 lg:w-12 dark:bg-blue-900">
-                        
-                       </div>
-                       <h3 class="mb-2 text-xl font-bold dark:text-white"></h3>
-                       <p class="text-gray-500 dark:text-gray-400"></p>
-                   </div>
-                   <div>
-                       <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full  lg:h-12 lg:w-12 dark:bg-blue-900">
-                          
-                       </div>
-                       <h3 class="mb-2 text-xl font-bold dark:text-white"></h3>
-                       <p class="text-gray-500 dark:text-gray-400">.</p>
-                   </div>
-                   <div>
-                       <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full  lg:h-12 lg:w-12 dark:bg-blue-900">
-                         
-                       </div>
-                       <h3 class="mb-2 text-xl font-bold dark:text-white"></h3>
-                       <p class="text-gray-500 dark:text-gray-400"></p>
-                   </div>
-                   <div>
-                       <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full  lg:h-12 lg:w-12 ">
-                          
-                       </div>
-                       <h3 class="mb-2 text-xl font-bold dark:text-white"></h3>
-                       <p class="text-gray-500 dark:text-gray-400"></p>
-                   </div>
+                  
                    </div>
                </div>
            </div>
