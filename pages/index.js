@@ -72,8 +72,8 @@ export default function Home() {
                    <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
                </div>
                <div class="grid grid-cols-2 gap-4 mt-8">
-                   <img class="w-full rounded-lg" src="espe1.jpeg" alt="office content 1"/>
-                   <img class="mt-4 w-full lg:mt-10 rounded-lg" src="mosa4.jpeg" alt="office content 2"/>
+                   <img  class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="espe1.jpeg" alt="office content 1"/>
+                   <img class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl mt-4 w-full lg:mt-10 rounded-lg" src="mosa4.jpeg" alt="office content 2"/>
                </div>
            </div>
        </section>
@@ -104,7 +104,7 @@ export default function Home() {
                <div class="md:flex md:justify-between">
                    <div class="mb-6 md:mb-0">
                        <a href="https://flowbite.com" class="flex items-center">
-                           <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-8" alt="FlowBite Logo" />
+                           <img  src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-8" alt="FlowBite Logo" />
                            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
                        </a>
                    </div>
