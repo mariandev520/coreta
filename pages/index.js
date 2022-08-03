@@ -1,4 +1,5 @@
 import Header from "./header";
+import 'animate.css';
 
 export default function Home() {
   return (
@@ -64,7 +65,7 @@ export default function Home() {
            </div>
          </section>
    
-         <section class="bg-white dark:bg-gray-100">
+         <section class="animate__animated animate__backInRight animate__delay-2s bg-white dark:bg-gray-100">
            <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
                <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                    <h2 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">We didn't reinvent the wheel</h2>
@@ -78,23 +79,24 @@ export default function Home() {
            </div>
        </section>
    
-       <section class="bg-gray-50 dark:bg-gray-900 dark:bg-green-200">
+       <section class="bg-gray-50 dark:bg-gray-900 dark:bg-cyan-200">
            <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
                <div class="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
-                   <h2 class="mb-4 text-4xl font-bold text-gray-900 dark:text-white">Powering innovation at <span class="font-extrabold">200,000+</span> companies worldwide</h2>
+                   <h2 class="mb-4 text-4xl font-bold text-gray-900 dark:text-white">Nuestros Diseños <span class="font-extrabold"></span> la diferencia en tus espacios</h2>
                  
                    <a href="#" class="inline-flex items-center font-medium text-blue-600 hover:text-blue-800 dark:text-blue-500 dark:hover:text-blue-700">
-                       Learn more
+                       galeria
                        <svg class="ml-1 w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
                    </a>
                </div>
            </div>
          </section>
    
-         <section class="bg-white dark:bg-green-200">
-           <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+         <section class="bg-white dark:bg-cyan-200">
+           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start" class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                <div class="mx-auto max-w-screen-sm text-center">
-                   <h2 class="mb-4 text-4xl font-extrabold leading-tight text-gray-900 dark:text-white">Start your free trial today</h2>
+        
+                   <h2 class="animate__animated animate__backInRight animate__delay-2s mb-4 text-4xl font-extrabold leading-tight text-gray-900 dark:text-white">"Muy lindos gracias" Belen  </h2> 
                </div>
            </div>
        </section>
@@ -103,46 +105,12 @@ export default function Home() {
            <div class="mx-auto max-w-screen-xl">
                <div class="md:flex md:justify-between">
                    <div class="mb-6 md:mb-0">
-                       <a href="https://flowbite.com" class="flex items-center">
-                           <img  src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-8" alt="FlowBite Logo" />
-                           <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                       <a href="/" class="flex items-center">
+                           <img  src="logo2.png" class="mr-3 h-8" alt="FlowBite Logo" />
+                           <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Corina</span>
                        </a>
                    </div>
-                   <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                       <div>
-                           <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
-                           <ul class="text-gray-600 dark:text-gray-400">
-                               <li class="mb-4">
-                                   <a href="#" class="hover:underline">Flowbite</a>
-                               </li>
-                               <li>
-                                   <a href="#" class="hover:underline">Tailwind CSS</a>
-                               </li>
-                           </ul>
-                       </div>
-                       <div>
-                           <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
-                           <ul class="text-gray-600 dark:text-gray-400">
-                               <li class="mb-4">
-                                   <a href="#" class="hover:underline ">Github</a>
-                               </li>
-                               <li>
-                                   <a href="#" class="hover:underline">Discord</a>
-                               </li>
-                           </ul>
-                       </div>
-                       <div>
-                           <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                           <ul class="text-gray-600 dark:text-gray-400">
-                               <li class="mb-4">
-                                   <a href="#" class="hover:underline">Privacy Policy</a>
-                               </li>
-                               <li>
-                                   <a href="#" class="hover:underline">Terms &amp; Conditions</a>
-                               </li>
-                           </ul>
-                       </div>
-                   </div>
+                        
                </div>
                <hr class="my-6 border-gray-200 sm:mx-auto dark:border-blue-200 lg:my-8" />
                <div class="sm:flex sm:items-center sm:justify-between">
