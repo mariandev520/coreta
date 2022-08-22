@@ -25,17 +25,17 @@ export default function Header() {
                     <a href="/" class="block py-2 pr-4 pl-3 text-2xl text-white rounded bg-cyan-700 lg:bg-transparent lg:text-cyan-700 lg:p-0 dark:text-white" aria-current="page">Casa</a>
                 </li>
                 <li>
-                    <a href="quien" class="block py-2 pr-4 pl-3 text-2xl text-gray-700 border-b border-cyan-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-cyan-400 lg:dark:hover:text-white dark:hover:bg-cyan-700 dark:hover:text-cyan lg:dark:hover:bg-transparent dark:border-cyan-700">backoff</a>
+                    <a href="quien" class="block py-2 pr-4 pl-3 text-2xl text-gray-700 border-b border-cyan-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-yellow-700 lg:dark:hover:text-green-300 dark:hover:bg-yelow-700 dark:hover:text-cyan lg:dark:hover:bg-transparent dark:border-cyan-700">backoff</a>
                 </li>
                 <li>
-                    <a href="child" class="block py-2 pr-4 pl-3 text-2xl text-gray-700 border-b border-cyan-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-cyan-400 lg:dark:hover:text-white dark:hover:bg-cyan-700 dark:hover:text-cyan lg:dark:hover:bg-transparent dark:border-cyan-700">Tienda</a>
+                    <a href="child" class="block py-2 pr-4 pl-3 text-2xl text-gray-700 border-b border-cyan-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-yellow-700 lg:dark:hover:text-green-300 dark:hover:bg-cyan-700 dark:hover:text-cyan lg:dark:hover:bg-transparent dark:border-cyan-700">Tienda</a>
                 </li>
 
                 <li>
-                    <a href="#" class="block py-2 pr-4 pl-3 text-2xl text-gray-700 border-b border-cyan-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-cyan-400 lg:dark:hover:text-white dark:hover:bg-cyan-700 dark:hover:text-cyan lg:dark:hover:bg-transparent dark:border-cyan-700">Team</a>
+                    <a href="#" class="block py-2 pr-4 pl-3 text-2xl text-gray-700 border-b border-cyan-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-yellow-700 lg:dark:hover:text-green-300 dark:hover:bg-cyan-700 dark:hover:text-cyan lg:dark:hover:bg-transparent dark:border-cyan-700">Team</a>
                 </li>
                 <li>
-                    <a href="contact" class="block py-2 pr-4 pl-3 text-2xl text-gray-700 border-b border-cyan-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-cyan-400 lg:dark:hover:text-white dark:hover:bg-cyan-700 dark:hover:text-cyan lg:dark:hover:bg-transparent dark:border-cyan-700">contacto</a>
+                    <a href="contact" class="block py-2 pr-4 pl-3 text-2xl text-gray-700 border-b border-cyan-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-yellow-700 lg:dark:hover:text-green-300  dark:hover:bg-cyan-700 dark:hover:text-cyan lg:dark:hover:bg-transparent dark:border-cyan-700">contacto</a>
                 </li>
             </ul>
         </div>
