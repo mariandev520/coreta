@@ -132,3 +132,14 @@ export default function child() {
     </>
   );
 }
+
+export async function getStaticProps() {
+  const response = await fetch('URL')
+  const result = await response.json()
+
+  return {
+    props: {
+      
+    }
+  }
+}
