@@ -5,10 +5,10 @@ export default function Contact() {
         <div class="bg-black text-white py-20">
             <div class="container mx-auto flex flex-col md:flex-row my-6 md:my-24">
                 <div class="flex flex-col w-full lg:w-1/3 p-8">
-                    <p class="ml-6 text-yellow-300 text-lg uppercase tracking-loose">REVIEW</p>
-                    <p class="text-3xl md:text-5xl my-4 leading-relaxed md:leading-snug">Leave us a feedback!</p>
+                    <p class="ml-6 text-yellow-300 text-lg uppercase tracking-loose">Coreta Tienda</p>
+                    <p class="text-3xl md:text-5xl my-4 leading-relaxed md:leading-snug">Personaliza tus diseños</p>
                     <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                        Please provide your valuable feedback and something something ...
+                        como podemos ayudarte?
                     </p>
                 </div>
                 <div class="flex flex-col w-full lg:w-2/3 justify-center">
@@ -18,7 +18,7 @@ export default function Contact() {
                                 <div
                                     class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-white">
                                     <div class="flex-auto p-5 lg:p-10">
-                                        <h4 class="text-2xl mb-4 text-black font-semibold">Have a suggestion?</h4>
+                                        <h4 class="text-2xl mb-4 text-black font-semibold">Esperamos tu consulta  </h4>
                                         <form id="feedbackForm" action="" method="">
                                             <div class="relative w-full mb-3">
                                                 <label class="block uppercase text-gray-700 text-xs font-bold mb-2"
@@ -28,7 +28,7 @@ export default function Contact() {
                         </div>
                                                 <div class="relative w-full mb-3">
                                                     <label class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                            for="message">Message</label><textarea maxlength="300" name="feedback" id="feedback" rows="4"
+                            for="message">Mensaje</label><textarea maxlength="300" name="feedback" id="feedback" rows="4"
                             cols="80"
                             class="border-0 px-3 py-3 bg-gray-300 placeholder-black text-gray-800 rounded text-sm shadow focus:outline-none w-full"
                             placeholder="" required></textarea>

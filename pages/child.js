@@ -9,7 +9,7 @@ export default function child() {
             <div class="lg:flex lg:-mx-2">
                 <div class="space-y-3 lg:w-1/5 lg:px-2 lg:space-y-4">
                     <a href="arte" class="block font-medium text-gray-500 dark:text-gray-300 hover:underline">Niños Arte</a>
-                    <a href="accessorios" class="block font-medium text-gray-500 dark:text-gray-300 hover:underline">Adornos Mate</a>
+                    <a href="accesorios" class="block font-medium text-gray-500 dark:text-gray-300 hover:underline">Adornos Mate</a>
                     <a href="child" class="block font-medium text-blue-600 dark:text-blue-500 hover:underline">Espejos</a>
                   
                 </div>
