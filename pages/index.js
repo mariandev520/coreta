@@ -6,8 +6,8 @@ export default function Home() {
  
         <>
    <Header />
-     
-       <section class="bg-gray-50 dark:white dark:bg-white p-10">
+    <section>
+       <section class="container mx-auto">
            <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
                <div class="max-w-screen-lg text-gray-100 sm:text-lg dark:text-gray-100">
                    <h2 class="mb-4 text-4xl font-bold text-gray-100 dark:text-white">Nuestros Diseños <span class="font-extrabold"></span> la diferencia en tus espacios</h2>
@@ -22,55 +22,61 @@ export default function Home() {
 
          </section>
 
-         <section class="bg-gray-50 dark:bg-gray-400 dark:bg-cyan-200">
+         <section class=" bg-gray-50 dark:bg-gray-400 dark:bg-cyan-200">
          <div class="relative bg-white overflow-hidden">
   <div class="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
-    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
-      <div class="sm:max-w-lg">
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static p-10">
+      <div class="m-6 sm:max-w-lg">
       <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                   <img class="w-60 h-70 overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl" src="corina.jpg" alt="mockup"/>
+                   <img class="w-60 h-70 overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl scale-125" src="corina.jpg" alt="mockup"/>
                </div>  
-        <h1 class="text-2xl font font-bold tracking-tight text-gray-900 sm:text-4xl">DECO & ARTE</h1>
-        <p class="mt-4 text-xl text-gray-500">This year, our new summer collection will shelter you from the harsh elements of a world that doesn't care if you live or die.</p>
+        <h1 class="text-2xl font font-bold tracking-tight text-gray-900 sm:text-4xl p-10">DECO </h1>
+        <p class="mt-4 text-xl text-gray-500 ">Intervenciones Artisticas</p>
       </div>
       <div>
-        <div class="mt-10">
+        <div class="">
        
-          <div aria-hidden="true" class="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full">
-            <div class="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
+          <div aria-hidden="true" class="">
+            <div class="">
               <div class="flex items-center space-x-6 lg:space-x-8">
-                <div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-                  <div class="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
-                    <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg" alt="" class="w-full h-full object-center object-cover"/>
-                  </div>
-                  <div class="w-44 h-64 rounded-lg overflow-hidden">
-                    <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg" alt="" class="w-full h-full object-center object-cover"/>
-                  </div>
-                </div>
-                <div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-                  <div class="w-44 h-64 rounded-lg overflow-hidden">
+               
+                <div class="">
+                  <div class=" rounded-lg overflow-hidden">
                   
                   </div>
-                  <div class=" rounded-lg overflow-hidden">
-                    <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg" alt="" class="w-full h-full object-center object-cover"/>
+               
                   </div>
-                  <div class="w-44 h-64 rounded-lg overflow-hidden">
-                   
-                  </div>
-                </div>
-                <div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-                  <div class="w-44 h-64 rounded-lg overflow-hidden">
-                    <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg" alt="" class="w-full h-full object-center object-cover"/>
-                  </div>
-                  <div class="w-44 h-64 rounded-lg overflow-hidden">
-                    <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg" alt="" class="w-full h-full object-center object-cover"/>
-                  </div>
-                </div>
+              
+                  <div class=" ">
+                   <img  class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-125 hover:shadow-xl w-full rounded-lg m-6 p-6 scale-95  " src="espe1/image7.jpg" alt="office content 1"/>
+                   <img class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-125 hover:shadow-xl mt-2 w- lg:mt-10 rounded-lg m-6 p-8  scale-75" src="espe1/image4.jpeg" alt="office content 2"/>
+               </div>
+              
               </div>
+                 
+    
+         <div class="absolute sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/5 lg:top-1/2 lg:translate-x-8">
+           <div class="flex items-center space-x-6 lg:space-x-8">
+            
+            
+               <div class=" rounded-lg overflow-hidden">
+               
+               </div>
+            
+               </div>
+     
+                <img  class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-125 hover:shadow-xl w-full rounded-lg m-6 p-6   scale-100  " src="espe1/image3.jpeg"/>
+                <img class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-125 hover:shadow-xl mt-2 w- lg:mt-10 rounded-lg m-6 p-8 translate-y-6  scale-95" src="espe1/image2.jpeg"/>
+          
+           </div>
+     
+       </div>
             </div>
-          </div>
-
-          <a href="#" class="inline-block text-center bg-green-600 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-indigo-700">Market</a>
+            
+        
+     
+    
+         
         </div>
       </div>
     </div>
@@ -80,7 +86,7 @@ export default function Home() {
 
 </section>
    
-<section  class="bg-white bg-fondo1">
+<section  class=" m-8 p-10 bg-white bg-fondo1 ">
            <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                <div class="mr-auto place-self-center lg:col-span-7">
                    <h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl dark:text-yellow-700">Objetos Artisticos </h1>
@@ -136,7 +142,7 @@ export default function Home() {
            </div>
          </section>
    
-         <section class="animate__animated animate__backInRight animate__delay-2s bg-white dark:bg-white">
+         <section class="animate__animated  bg-white dark:bg-white">
            <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
                <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                    <h2 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">We didn't reinvent the wheel</h2>
@@ -264,8 +270,9 @@ export default function Home() {
         </span>
       </div>
     </div>
+    
   </footer>
- 
+  </section>
 </>
 
   )
