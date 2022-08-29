@@ -8,7 +8,7 @@ export default function productoim() {
     <ol role="list" class="max-w-2xl mx-auto px-4 flex items-center space-x-2 sm:px-6 lg:max-w-7xl lg:px-8">
       <li>
         <div class="flex items-center">
-          <a href="#" class="mr-2 text-sm font-medium text-gray-900"> Men </a>
+          <a href="#" class="mr-2 text-sm font-medium text-gray-900"> Espejo </a>
           <svg width="16" height="20" viewBox="0 0 16 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="w-4 h-5 text-gray-300">
             <path d="M5.697 4.34L8.98 16.532h1.327L7.025 4.341H5.697z" />
           </svg>
@@ -17,7 +17,7 @@ export default function productoim() {
 
       <li>
         <div class="flex items-center">
-          <a href="#" class="mr-2 text-sm font-medium text-gray-900"> Clothing </a>
+          <a href="#" class="mr-2 text-sm font-medium text-gray-900"> Accesorios</a>
           <svg width="16" height="20" viewBox="0 0 16 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="w-4 h-5 text-gray-300">
             <path d="M5.697 4.34L8.98 16.532h1.327L7.025 4.341H5.697z" />
           </svg>
@@ -25,7 +25,7 @@ export default function productoim() {
       </li>
 
       <li class="text-sm">
-        <a href="#" aria-current="page" class="font-medium text-gray-500 hover:text-gray-600"> Basic Tee 6-Pack </a>
+        <a href="#" aria-current="page" class="font-medium text-gray-500 hover:text-gray-600"> Espejos</a>
       </li>
     </ol>
   </nav>
@@ -51,16 +51,16 @@ export default function productoim() {
 
   <div class="max-w-2xl mx-auto pt-10 pb-16 px-4 sm:px-6 lg:max-w-7xl lg:pt-16 lg:pb-24 lg:px-8 lg:grid lg:grid-cols-3 lg:grid-rows-[auto,auto,1fr] lg:gap-x-8">
     <div class="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
-      <h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:tracking-tight sm:text-3xl">Basic Tee 6-Pack</h1>
+      <h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:tracking-tight sm:text-3xl">Deco</h1>
     </div>
 
 
     <div class="mt-4 lg:mt-0 lg:row-span-3">
-      <h2 class="sr-only">Product information</h2>
-      <p class="tracking-tight text-3xl text-gray-900">$192</p>
+      <h2 class="sr-only">Informacion de Producto</h2>
+      <p class="tracking-tight text-3xl text-gray-900">$11000</p>
 
       <div class="mt-6">
-        <h3 class="sr-only">Reviews</h3>
+        <h3 class="sr-only">Caracteristicas</h3>
         <div class="flex items-center">
           <div class="flex items-center">
       
@@ -95,35 +95,7 @@ export default function productoim() {
 
       <form class="mt-10">
       
-        <div>
-          <h3 class="text-sm text-gray-900 font-medium">Color</h3>
-
-          <fieldset class="mt-4">
-            <legend class="sr-only">Choose a color</legend>
-            <div class="flex items-center space-x-3">
-           
-              <label class="-m-0.5 relative p-0.5 rounded-full flex items-center justify-center cursor-pointer focus:outline-none ring-gray-400">
-                <input type="radio" name="color-choice" value="White" class="sr-only" aria-labelledby="color-choice-0-label"/>
-                <span id="color-choice-0-label" class="sr-only"> White </span>
-                <span aria-hidden="true" class="h-8 w-8 bg-white border border-black border-opacity-10 rounded-full"></span>
-              </label>
-
-          
-              <label class="-m-0.5 relative p-0.5 rounded-full flex items-center justify-center cursor-pointer focus:outline-none ring-gray-400">
-                <input type="radio" name="color-choice" value="Gray" class="sr-only" aria-labelledby="color-choice-1-label"/>
-                <span id="color-choice-1-label" class="sr-only"> Gray </span>
-                <span aria-hidden="true" class="h-8 w-8 bg-gray-200 border border-black border-opacity-10 rounded-full"></span>
-              </label>
-
-       
-              <label class="-m-0.5 relative p-0.5 rounded-full flex items-center justify-center cursor-pointer focus:outline-none ring-gray-900">
-                <input type="radio" name="color-choice" value="Black" class="sr-only" aria-labelledby="color-choice-2-label"/>
-                <span id="color-choice-2-label" class="sr-only"> Black </span>
-                <span aria-hidden="true" class="h-8 w-8 bg-gray-900 border border-black border-opacity-10 rounded-full"></span>
-              </label>
-            </div>
-          </fieldset>
-        </div>
+    
 
        
         <div class="mt-10">
@@ -219,7 +191,7 @@ export default function productoim() {
     <div class="py-10 lg:pt-6 lg:pb-16 lg:col-start-1 lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
   
       <div>
-        <h3 class="sr-only">Description</h3>
+        <h3 class="sr-only">Descripcion</h3>
 
         <div class="space-y-6">
           <p class="text-base text-gray-900">The Basic Tee 6-Pack allows you to fully express your vibrant personality with three grayscale options. Feeling adventurous? Put on a heather gray tee. Want to be a trendsetter? Try our exclusive colorway: &quot;Black&quot;. Need to add an extra pop of color to your outfit? Our white tee has you covered.</p>
