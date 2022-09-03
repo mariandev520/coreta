@@ -90,7 +90,7 @@ export default function Home() {
            <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                <div class="mr-auto place-self-center lg:col-span-7">
                    <h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl dark:text-yellow-700">Objetos Artisticos </h1>
-                   <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">From checkout to global sales tax compliance, companies around the world use Flowbite to simplify their payment stack.</p>
+                   <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Puedes optar por darle un toque distinto a Tus espacios pasea por nuestro market para encontrar lo necesitas para tu interior</p>
                   
                    <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-bg-yellow-500 dark:border-gray-100 dark:hover:bg-gray-200 dark:focus:ring-gray-1S00">
                        Lo distinto
@@ -145,8 +145,8 @@ export default function Home() {
          <section class="animate__animated  bg-white dark:bg-white">
            <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
                <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                   <h2 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">We didn't reinvent the wheel</h2>
-                   <p class="mb-4">We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.</p>
+                   <h2 class="mb-4 text-4xl font-extrabold text-yellow-500 dark:text-yellow-700">CAMPO CREATIVO</h2>
+                   <p class="mb-4"></p>
                    <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
                </div>
                <div class="grid grid-cols-2 gap-4 mt-8">
@@ -161,16 +161,14 @@ export default function Home() {
     <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
       <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
         <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-gray-200 p-2 bg-pink-600 rounded-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-          </svg>
+        <img src="logo2.png" class="mr-4 h-8 sm:h-20"  />
           <span class="ml-3 text-xl text-white">DEV</span>
         </a>
-        <p class="mt-2 text-sm text-gray-600">Air plant banjo lyft occupy retro adaptogen indego</p>
+        <p class="mt-2 text-sm text-gray-600">Creaciones unicas para espacios interiores o exteriores</p>
       </div>
       <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 class="title-font font-bold text-gray-600 tracking-widest text-md mb-3">CATEGORIES</h2>
+          <h2 class="title-font font-bold text-gray-600 tracking-widest text-md mb-3">Donde encontranos?</h2>
           <nav class="list-none mb-10">
             <li>
               <a class="text-gray-300 hover:text-red-300" href="#">First Link</a>
@@ -187,7 +185,7 @@ export default function Home() {
           </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 class="title-font font-bold text-gray-600 tracking-widest text-md mb-3">CATEGORIES</h2>
+          <h2 class="title-font font-bold text-gray-600 tracking-widest text-md mb-3">Nuestros Diseños</h2>
           <nav class="list-none mb-10">
             <li>
               <a class="text-gray-300 hover:text-red-300" href="#">First Link</a>
@@ -204,7 +202,7 @@ export default function Home() {
           </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 class="title-font font-bold text-gray-600 tracking-widest text-md mb-3">CATEGORIES</h2>
+          <h2 class="title-font font-bold text-gray-600 tracking-widest text-md mb-3">Tienda</h2>
           <nav class="list-none mb-10">
             <li>
               <a class="text-gray-300 hover:text-red-300" href="#">First Link</a>
@@ -221,7 +219,7 @@ export default function Home() {
           </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 class="title-font font-bold text-white tracking-widest text-md mb-3">CATEGORIES</h2>
+          <h2 class="title-font font-bold text-white tracking-widest text-md mb-3">Quienes Somos?</h2>
           <nav class="list-none mb-10">
             <li>
               <a class="text-white hover:text-red-300" href="#">First Link</a>
