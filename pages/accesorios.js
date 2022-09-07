@@ -1,4 +1,5 @@
 import Header from "./header";
+import { Link } from '@chakra-ui/react'
 
 export default function accesorios() {
     return (
@@ -30,7 +31,9 @@ export default function accesorios() {
 
                     <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                         <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
-                            <img class="object-cover w-full rounded-md h-72 xl:h-80" src="image1.jpeg" alt="T-Shirt"/>
+                        <Link href="productosador">
+                            <img class="object-cover w-full rounded-md h-72 xl:h-80" src="posa1/02.jpeg" alt="T-Shirt"/>
+                            </Link>
                             <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Printed T-shirt</h4>
                             <p class="text-blue-500">$12.55</p>
 
