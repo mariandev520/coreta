@@ -30,15 +30,15 @@ export default function Header() {
  <button
  
    type="button" 
-   class=" border border-yellow-500 bg-yellow-600 text-white  rounded-md px-16 py-2 m-2 transition duration-500 ease select-none hover:bg-yellow-300 focus:outline-none focus:shadow-outline "
+   class="border border-gray-200 bg-green-400 text-white rounded-md px-8 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-800 focus:outline-none focus:shadow-outline"
  >
-   CASA
+   INICIO
  </button>
  </Link>
  <Link href="quien">
  <button
    type="button"
-   class="border border-orange-400 bg-yellow-500 text-white rounded-md px-8 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-800 focus:outline-none focus:shadow-outline"
+   class="border border-gray-200 bg-green-400 text-white rounded-md px-8 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-800 focus:outline-none focus:shadow-outline"
  >
    TALLER
  </button>
@@ -46,7 +46,7 @@ export default function Header() {
  <Link href="child">
  <button
    type="button"
-   class="border border-gray-200  bg-green-500 text-white rounded-md px-16 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-300 focus:outline-none focus:shadow-outline"
+   class="border border-gray-200 bg-green-400 text-white rounded-md px-8 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-800 focus:outline-none focus:shadow-outline"
  >
    TIENDA
  </button>
