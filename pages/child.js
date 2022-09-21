@@ -46,7 +46,9 @@ export default function child() {
                         </div>
 
                         <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
-                            <img class="object-cover w-full rounded-md h-72 xl:h-80" src="image1.jpeg" alt="T-Shirt"/>
+                        <Link href="productes">
+                            <img class="object-cover w-full rounded-md h-72 xl:h-80" src="espe1/espe2.jpg" alt="T-Shirt"/>
+                            </Link>
                             <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200"> Slub jersey T-shirt</h4>
                             <p class="text-blue-500">$18.70</p>
 
