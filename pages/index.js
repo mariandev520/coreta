@@ -49,7 +49,7 @@ export default function Home() {
               
                   <div class=" ">
                    <img  class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-125 hover:shadow-xl w-full rounded-lg m-6 p-6 scale-95  " src="varios/mase.jpg" alt="office content 1"/>
-                   <img class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-125 hover:shadow-xl mt-2 w- lg:mt-10 rounded-lg m-6 p-8  scale-75" src="varios/espe1.jpg" alt="office content 2"/>
+                   <img class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-125 hover:shadow-xl mt-2 w- lg:mt-10 rounded-lg m-6 p-8  scale-75" src="espe1/espe2.jpg" alt="office content 2"/>
                </div>
               
               </div>
@@ -66,7 +66,7 @@ export default function Home() {
                </div>
      
                 <img  class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-125 hover:shadow-xl w-full rounded-lg m-6 p-6   scale-100  " src="espe1/image3.jpeg"/>
-                <img class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-125 hover:shadow-xl mt-2 w- lg:mt-10 rounded-lg m-6 p-8 translate-y-6  scale-95" src="varios/marco.jpg"/>
+                <img class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-125 hover:shadow-xl mt-2 w- lg:mt-10 rounded-lg m-6 p-8 translate-y-6  scale-95" src="espe1/espe3a.jpeg"/>
           
            </div>
      
