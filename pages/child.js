@@ -9,10 +9,10 @@ export default function child() {
         <div class="container px-6 py-8 mx-auto">
             <div class="lg:flex lg:-mx-2">
                 <div class="space-y-3 lg:w-1/5 lg:px-2 lg:space-y-4">
-                    <a href="arte" class="block font-medium text-gray-500 dark:text-gray-300 hover:underline">Niños Arte</a>
-                    <a href="accesorios" class="block font-medium text-gray-500 dark:text-gray-300 hover:underline">Adornos Mate</a>
+                    <a href="arte" class="block font-medium text-gray-500 dark:text-gray-300 hover:underline">Masetas</a>
+                    <a href="accesorios" class="block font-medium text-gray-500 dark:text-gray-300 hover:underline">Deco Hogar</a>
                     <a href="child" class="block font-medium text-blue-600 dark:text-blue-500 hover:underline">Espejos</a>
-                  
+                
                 </div>
 
                 <div class="mt-6 lg:mt-0 lg:px-2 lg:w-4/5 ">
@@ -34,8 +34,8 @@ export default function child() {
                            <img  class="object-cover w-full rounded-md h-72 xl:h-80" src=
                            "espe1/image7.jpg" alt="T-Shirt"/>
                            </Link>
-                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Printed T-shirt</h4>
-                            <p class="text-blue-500">$12.55</p>
+                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Espejo HippiChik</h4>
+                            <p class="text-blue-500">$10000</p>
 
                             <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-gray-800 rounded-md hover:bg-gray-700 focus:outline-none focus:bg-gray-700">
                                 <svg xmlns="image1.jpeg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
@@ -49,8 +49,8 @@ export default function child() {
                         <Link href="productes">
                             <img class="object-cover w-full rounded-md h-72 xl:h-80" src="espe1/espe2.jpg" alt="T-Shirt"/>
                             </Link>
-                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200"> Slub jersey T-shirt</h4>
-                            <p class="text-blue-500">$18.70</p>
+                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200"> Espejo Quincho</h4>
+                            <p class="text-blue-500">$12000</p>
 
                             <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-gray-800 rounded-md hover:bg-gray-700 focus:outline-none focus:bg-gray-700">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
@@ -64,8 +64,8 @@ export default function child() {
                         <Link href="productesA">
                             <img class="object-cover w-full rounded-md h-72 xl:h-80" src="espe1/espe3.jpg" alt="T-Shirt"/>
                             </Link>
-                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">T-shirt with a motif</h4>
-                            <p class="text-blue-500">$16.55</p>
+                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Espejo Baño</h4>
+                            <p class="text-blue-500">$9700</p>
 
                             <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-gray-800 rounded-md hover:bg-gray-700 focus:outline-none focus:bg-gray-700">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
@@ -79,7 +79,7 @@ export default function child() {
                             <Link href="productesB">
                             <img class="object-cover w-full rounded-md h-72 xl:h-80" src="espe1/espe4.jpg" alt="T-Shirt"/>
                             </Link>
-                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Art T-shirt</h4>
+                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Espejo Flex</h4>
                             <p class="text-blue-500">$12.55</p>
 
                             <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-gray-800 rounded-md hover:bg-gray-700 focus:outline-none focus:bg-gray-700">
