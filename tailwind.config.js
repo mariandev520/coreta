@@ -8,6 +8,8 @@ module.exports = {
         'mossa': "url('../public/espr4.jpeg')",
         'fondo1': "url('../public/fondomosa.png')",
         'mosssa': "url('../public/mossssa.png')",
+        'fondop': "url('../public/portad.jpeg')",
+
       },
   },
   plugins: [],

@@ -6,11 +6,11 @@ export default function Home() {
  
         <>
    <Header />
-    <section>
-       <section class="container mx-auto">
-           <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+    <section class=" ">
+       <section class="container mx-auto "  >
+           <div class="mx-auto lg:py-16 lg:px-6 overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl bg-fondop">
                <div class="max-w-screen-lg text-gray-100 sm:text-lg dark:text-gray-100">
-                   <h2 class="max-w-3xl mb-4 text-6xl font-extrabold font-bold text-yellow-400 dark:text-gray-500">Nuestros Diseños <span class="font-extrabold"></span> la diferencia en tus espacios</h2>
+                   <h2 class="max-w-3xl mb-4 text-6xl font-extrabold font-bold text-yellow-400 dark:text-gray-500">Diseño <span class="font-extrabold"></span>en tus espacios</h2>
                  
                    <a href="child" class=" inline-flex items-center font-bold text-blue-600 hover:text-blue-800 dark:text-yellow-700 dark:hover:text-red-700 p-20">
                        galeria
