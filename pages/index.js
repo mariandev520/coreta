@@ -5,8 +5,8 @@ export default function Home() {
   return (
  
         <>
-   <Header />
-    <section class=" ">
+   <Header CLASS />
+    <section class="p-6 ">
        <section class="container mx-auto "  >
            <div class="mx-auto lg:py-16 lg:px-6 overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl bg-fondop">
                <div class="max-w-screen-lg text-gray-100 sm:text-lg dark:text-gray-100">
@@ -22,71 +22,36 @@ export default function Home() {
 
          </section>
 
-         <section class=" bg-gray-50 dark:bg-gray-400 dark:bg-cyan-200">
-         <div class="relative bg-white overflow-hidden">
-  <div class="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
-    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static p-10">
-      <div class="m-6 sm:max-w-lg">
-      <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                   <img class="w-60 h-70 overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl scale-125" src="corina.jpg" alt="mockup"/>
-               </div>  
-        <h1 class="text-2xl font font-bold tracking-tight text-yellow-900 sm:text-4xl p-10">DECO </h1>
-        <p class="mt-4 text-xl text-gray-500 ">Intervenciones Artisticas</p>
-      </div>
-      <div>
-        <div class="">
-       
-          <div aria-hidden="true" class="">
-            <div class="">
-              <div class="flex items-center space-x-6 lg:space-x-8">
-               
-                <div class="">
-                  <div class=" rounded-lg overflow-hidden">
-                  
-                  </div>
-               
-                  </div>
-              
-                  <div class=" ">
-                   <img  class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-125 hover:shadow-xl w-full rounded-lg m-6 p-6 scale-95  " src="varios/mase.jpg" alt="office content 1"/>
-                   <img class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-125 hover:shadow-xl mt-2 w- lg:mt-10 rounded-lg m-6 p-8  scale-75" src="espe1/espe2.jpg" alt="office content 2"/>
-               </div>
-              
-              </div>
-                 
-    
-         <div class="absolute sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/5 lg:top-1/2 lg:translate-x-8">
-           <div class="flex items-center space-x-6 lg:space-x-8">
-            
-            
-               <div class=" rounded-lg overflow-hidden">
-               
-               </div>
-            
-               </div>
-     
-                <img  class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-125 hover:shadow-xl w-full rounded-lg m-6 p-6   scale-100  " src="espe1/image3.jpeg"/>
-                <img class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-125 hover:shadow-xl mt-2 w- lg:mt-10 rounded-lg m-6 p-8 translate-y-6  scale-95" src="espe1/espe3a.jpeg"/>
-          
-           </div>
-     
-       </div>
-            </div>
-            
+         <section class="">
+         <div class="py-16 white">  
+    <div class="container m-auto px-6 text-gray-600">
+    <img class="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="espe1/image3.jpeg"/>
+        <h2 class="p-6 max-w-3xl mb-4 text-6xl font-extrabold font-bold text-yellow-400 dark:text-gray-500">Deco & Arte</h2>
+        <div class="grid gap-8  lg:grid-cols-2">
+        <img class="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="espe1/espe2b.jpeg"/>
+        <img class="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="espe1/espe3d.jpeg"/>
         
-     
+        </div>
     
-         
+        </div>
+        </div>
+
+        <div class="py-16 bg-white">  
+  <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+      <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+        <div class="md:5/12 lg:w-5/12">
+          <img class="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="porespe2.jpeg" alt="image" loading="lazy" width="" height=""/>
+        </div>
+        <div class="md:7/12 lg:w-6/12">
+          <h2 class="text-2xl text-gray-900 font-bold md:text-4xl">Todo los espacios reflejan tu interio</h2>
+          <p class="mt-6 text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!</p>
+          <p class="mt-4 text-gray-600"> Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.</p>
         </div>
       </div>
-    </div>
   </div>
-  
 </div>
-
-</section>
    
-<section  class=" m-8 p-10 bg-white bg-fondo1 ">
+<div class="  bg-white bg-fondo1 ">
            <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                <div class="mr-auto place-self-center lg:col-span-7">
                    <h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl dark:text-yellow-700">Objetos Artisticos </h1>
@@ -140,6 +105,7 @@ export default function Home() {
                    </div>
                </div>
            </div>
+           </div>
          </section>
    
          <section class="animate__animated  bg-white dark:bg-white">
@@ -150,8 +116,8 @@ export default function Home() {
                    <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
                </div>
                <div class="grid grid-cols-2 gap-4 mt-8">
-                   <img  class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="espe1.jpeg" alt="office content 1"/>
-                   <img class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl mt-4 w-full lg:mt-10 rounded-lg" src="mosa4.jpeg" alt="office content 2"/>
+                   <img  class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="portadix.jpeg" alt="office content 1"/>
+                   <img class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl mt-4 w-full lg:mt-10 rounded-lg" src="portamase.jpeg" alt="office content 2"/>
                </div>
            </div>
        </section>
