@@ -2,8 +2,8 @@ export default function posa1() {
     return (
 
 
-<div class="bg-white">
-<div class="pt-6">
+<div className="bg-white">
+<div className="pt-6">
   <nav aria-label="Breadcrumb">
     <ol role="list" className="max-w-2xl mx-auto px-4 flex items-center space-x-2 sm:px-6 lg:max-w-7xl lg:px-8">
       <li>
@@ -115,7 +115,7 @@ export default function posa1() {
 
                 <span aria-hidden="true" className="absolute -inset-px rounded-md border-2 border-gray-200 pointer-events-none">
                   <svg className="absolute inset-0 w-full h-full text-gray-200 stroke-2" viewBox="0 0 100 100" preserveAspectRatio="none" stroke="currentColor">
-                    <line x1="0" y1="100" x2="100" y2="0" vector-effect="non-scaling-stroke" />
+                    <line x1="0" y1="100" x2="100" y2="0" />
                   </svg>
                 </span>
               </label>
@@ -219,7 +219,7 @@ export default function posa1() {
         <h2 className="text-sm font-medium text-gray-900">Details</h2>
 
         <div className="mt-4 space-y-6">
-          <p class="text-sm text-gray-600">The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming &quot;Charcoal Gray&quot; limited release.</p>
+          <p className="text-sm text-gray-600">The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming &quot;Charcoal Gray&quot; limited release.</p>
         </div>
       </div>
     </div>

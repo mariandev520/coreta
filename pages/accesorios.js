@@ -1,5 +1,5 @@
 import Header from "./header";
-import { Link } from '@chakra-ui/react'
+import { Link,Image } from '@chakra-ui/react'
 
 export default function accesorios() {
     return (
@@ -32,7 +32,7 @@ export default function accesorios() {
                     <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                         <div className="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
                         <Link href="productosador">
-                            <img className="object-cover w-full rounded-md h-72 xl:h-80" src="posa1/02.jpeg" alt="T-Shirt"/>
+                            <Image className="object-cover w-full rounded-md h-72 xl:h-80" src="posa1/02.jpeg" alt="T-Shirt"></Image>
                             </Link>
                             <h4 className="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Printed T-shirt</h4>
                             <p className="text-blue-500">$12.55</p>
@@ -46,7 +46,7 @@ export default function accesorios() {
                         </div>
                         <div className="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
                         <Link href="Cards/posauno">
-                            <img className="object-cover w-full rounded-md h-72 xl:h-76" src="posa1/port1.jpeg" alt="T-Shirt"/>
+                            <Image className="object-cover w-full rounded-md h-72 xl:h-76" src="posa1/port1.jpeg" alt="T-Shirt"/>
                             </Link>
                             <h4 className="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">T-shirt with a motif</h4>
                             <p className="text-blue-500">$16.55</p>
@@ -60,7 +60,7 @@ export default function accesorios() {
                         </div>
                         <div className="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
                         <Link href="Cards/posados">
-                            <img className="object-cover w-full rounded-md h-72 xl:h-80" src="posa1/mat1.jpeg" alt="T-Shirt"/>
+                            <Image className="object-cover w-full rounded-md h-72 xl:h-80" src="posa1/mat1.jpeg" alt="T-Shirt"/>
                             </Link>
                             <h4 className="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">T-shirt with a motif</h4>
                             <p className="text-blue-500">$16.55</p>

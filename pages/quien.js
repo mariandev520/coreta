@@ -1,4 +1,5 @@
 import Header from "./header";
+import { Img } from "@chakra-ui/react";
 
 export default function quien() {
     return (
@@ -16,7 +17,7 @@ export default function quien() {
                         <div   aria-label="Group of cards" className="focus:outline-none mt-12 lg:mt-24">
                             <div  className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8">
                                 <div  className="focus:outline-none" aria-label="card 1">
-                                    <img role="img" aria-label="code editor"  className="focus:outline-none w-full" src="espe1.jpeg" alt="code editor" />
+                                    <Img role="Img" aria-label="code editor"  className="focus:outline-none w-full" src="espe1.jpeg" alt="code editor" ></Img>
                                     <div className="py-4 px-8 w-full flex justify-between bg-green-300">
                                         <p   className="focus:outline-none text-sm text-white font-semibold tracking-wide">Bruce Wayne</p>
                                         <p  className="focus:outline-none text-sm text-white font-semibold tracking-wide">13TH Oct, 2020</p>
@@ -27,9 +28,9 @@ export default function quien() {
                                         <div className="w-full flex justify-end" >
                                             <button className="focus:outline-none focus:ring-2 ring-offset-2 focus:ring-gray-600 hover:opacity-75 mt-4 justify-end flex items-center cursor-pointer">
                                                 <span className=" text-base tracking-wide text-indigo-700">Read more</span>
-                                                <img className="ml-3 lg:ml-6 text-indigo-700" href="espe.jpeg" width="20" height="18" viewBox="0 0 20 18" fill="none">
+                                                <Img className="ml-3 lg:ml-6 text-indigo-700" href="espe.jpeg" width="20" height="18" viewBox="0 0 20 18" fill="none">
                                                    
-                                                </img>
+                                                </Img>
                                             </button>
                                         </div>
                                         <div className="h-5 w-2"></div>
@@ -38,7 +39,7 @@ export default function quien() {
                                 <div>
                                     <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
                                         <div  className="focus:outline-none " aria-label="card 2" >
-                                            <img  role="img" aria-label="gaming" className="focus:outline-none w-full" src="espe3.jpeg" alt="games" />
+                                            <Img  role="img" aria-label="gaming" className="focus:outline-none w-full" src="espe3.jpeg" alt="games" ></Img>
                                             <div className="py-2 px-4 w-full flex justify-between bg-orange-300">
                                                 <p  className="focus:outline-none  text-sm text-white font-semibold tracking-wide">Bruce Wayne</p>
                                                 <p  className="focus:outline-none text-sm text-white font-semibold tracking-wide">13TH Oct, 2020</p>
@@ -49,7 +50,7 @@ export default function quien() {
                                             </div>
                                         </div>
                                         <div   className="focus:outline-none" aria-label="card 3">
-                                            <img  role="img" aria-label="gaming" className="focus:outline-none focus:outline-none w-full" src="espe5.jpeg" alt="notes" />
+                                            <Img  role="img" aria-label="gaming" className="focus:outline-none focus:outline-none w-full" src="espe5.jpeg" alt="notes" ></Img>
                                             <div className="py-2 px-4 w-full flex justify-between bg-green-300">
                                                 <p  className="focus:outline-none text-sm text-white font-semibold tracking-wide">Bruce Wayne</p>
                                                 <p  className="focus:outline-none text-sm text-white font-semibold tracking-wide">13TH Oct, 2020</p>
@@ -63,7 +64,7 @@ export default function quien() {
         
                                     <div className="mt-10 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
                                         <div  className="focus:outline-none " aria-label="card 4">
-                                            <img  role="img" aria-label="laptop" className="focus:outline-none w-full" src="espe.jpeg" alt="laptop" />
+                                            <Img  role="img" aria-label="laptop" className="focus:outline-none w-full" src="espe.jpeg" alt="laptop" ></Img>
                                             <div className="py-2 px-4 w-full flex justify-between bg-green-300">
                                                 <p  className="focus:outline-none text-sm text-white font-semibold tracking-wide">Bruce Wayne</p>
                                                 <p  className="focus:outline-none text-sm text-white font-semibold tracking-wide">13TH Oct, 2020</p>
@@ -74,7 +75,7 @@ export default function quien() {
                                             </div>
                                         </div>
                                         <div  className="focus:outline-none" aria-label="card 5">
-                                            <img  role="img" aria-label="worker" className="focus:outline-none w-full" src="espe3.jpeg" alt="worker" />
+                                            <Img  role="img" aria-label="worker" className="focus:outline-none w-full" src="espe3.jpeg" alt="worker" ></Img>
                                             <div className="py-2 px-4 w-full flex justify-between bg-orange-300">
                                                 <p  className="focus:outline-none text-sm text-white font-semibold tracking-wide">Bruce Wayne</p>
                                                 <p  className="focus:outline-none text-sm text-white font-semibold tracking-wide">13TH Oct, 2020</p>

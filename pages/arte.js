@@ -1,4 +1,6 @@
 import Header from "./header";
+import { Image } from '@chakra-ui/react'
+
 
 export default function arte() {
     return (
@@ -30,7 +32,7 @@ export default function arte() {
 
                     <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                         <div className="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
-                            <img className="object-cover w-full rounded-md h-72 xl:h-80" src="image1.jpeg" alt="T-Shirt"/>
+                            <Image className="object-cover w-full rounded-md h-72 xl:h-80" src="image1.jpeg" alt="T-Shirt"></Image>
                             <h4 className="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Printed T-shirt</h4>
                             <p className="text-blue-500">$12.55</p>
 
@@ -43,7 +45,7 @@ export default function arte() {
                         </div>
 
                         <div className="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
-                            <img className="object-cover w-full rounded-md h-72 xl:h-80" src="https://images.unsplash.com/photo-1620799139507-2a76f79a2f4d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80" alt="T-Shirt"/>
+                            <Image className="object-cover w-full rounded-md h-72 xl:h-80" src="https://images.unsplash.com/photo-1620799139507-2a76f79a2f4d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80" alt="T-Shirt"/>
                             <h4 className="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200"> Slub jersey T-shirt</h4>
                             <p className="text-blue-500">$18.70</p>
 
@@ -56,7 +58,7 @@ export default function arte() {
                         </div>
 
                         <div className="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
-                            <img className="object-cover w-full rounded-md h-72 xl:h-80" src="https://images.unsplash.com/photo-1603320409990-02d834987237?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="T-Shirt"/>
+                            <Image className="object-cover w-full rounded-md h-72 xl:h-80" src="https://images.unsplash.com/photo-1603320409990-02d834987237?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="T-Shirt"></Image>
                             <h4 className="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">T-shirt with a motif</h4>
                             <p className="text-blue-500">$16.55</p>
 

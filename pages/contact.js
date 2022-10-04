@@ -22,13 +22,13 @@ export default function Contact() {
                                         <form id="feedbackForm" action="" method="">
                                             <div className="relative w-full mb-3">
                                                 <label className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                            for="email">Email</label><input type="email" name="email" id="email" className="border-0 px-3 py-3 rounded text-sm shadow w-full
+                            htmlFor="email">Email</label><input type="email" name="email" id="email" className="border-0 px-3 py-3 rounded text-sm shadow w-full
                         bg-gray-300 placeholder-black text-gray-800 outline-none focus:bg-gray-400" placeholder=" "
-                            className="transition: all 0.15s ease 0s;" required />
+                            className="transition: all 0.15s ease 0s;" />
                         </div>
                                                 <div className="relative w-full mb-3">
                                                     <label className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                            for="message">Mensaje</label><textarea maxlength="300" name="feedback" id="feedback" rows="4"
+                            htmlFor="message">Mensaje</label><textarea length="300" name="feedback" id="feedback" rows="4"
                             cols="80"
                             className="border-0 px-3 py-3 bg-gray-300 placeholder-black text-gray-800 rounded text-sm shadow focus:outline-none w-full"
                             placeholder="" required></textarea>

@@ -1,12 +1,12 @@
 import Header from "./header";
-import { Link } from '@chakra-ui/react'
+import { Link ,Image} from '@chakra-ui/react'
 
 export default function child() {
     return (
  <>
  <Header />
 <section >
-        <div class="container px-6 py-8 mx-auto">
+        <div className="container px-6 py-8 mx-auto">
             <div className="lg:flex lg:-mx-2">
                 <div className="space-y-3 lg:w-1/5 lg:px-2 lg:space-y-4">
                     <a href="arte" className="block font-medium text-gray-500 dark:text-gray-300 hover:underline">Masetas</a>
@@ -31,8 +31,8 @@ export default function child() {
                     <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                         <div className="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
                           <Link href="productoim">
-                           <img  className="object-cover w-full rounded-md h-72 xl:h-80" src=
-                           "espe1/image7.jpg" alt="T-Shirt"></img>
+                           <Image  className="object-cover w-full rounded-md h-72 xl:h-80" src=
+                           "espe1/image7.jpg" alt="T-Shirt"></Image>
                            </Link>
                             <h4 className="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Espejo HippiChik</h4>
                             <p className="text-blue-500">$10000</p>
@@ -47,7 +47,7 @@ export default function child() {
 
                         <div className="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
                         <Link href="productes">
-                            <img className="object-cover w-full rounded-md h-72 xl:h-80" src="espe1/espe2.jpg" alt="T-Shirt"/>
+                            <Image className="object-cover w-full rounded-md h-72 xl:h-80" src="espe1/espe2.jpg" alt="T-Shirt"></Image>
                             </Link>
                             <h4 className="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200"> Espejo Quincho</h4>
                             <p className="text-blue-500">$12000</p>
@@ -62,7 +62,7 @@ export default function child() {
 
                         <div className="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
                         <Link href="productesA">
-                            <img className="object-cover w-full rounded-md h-72 xl:h-80" src="espe1/espe3.jpg" alt="T-Shirt"></img>
+                            <Image className="object-cover w-full rounded-md h-72 xl:h-80" src="espe1/espe3.jpg" alt="T-Shirt"></Image>
                             </Link>
                             <h4 className="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Espejo Baño</h4>
                             <p className="text-blue-500">$9700</p>
@@ -77,7 +77,7 @@ export default function child() {
 
                         <div className="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
                             <Link href="productesB">
-                            <img className="object-cover w-full rounded-md h-72 xl:h-80" src="espe1/espe4.jpg" alt="T-Shirt"/>
+                            <Image className="object-cover w-full rounded-md h-72 xl:h-80" src="espe1/espe4.jpg" alt="T-Shirt"/>
                             </Link>
                             <h4 className="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Espejo Flex</h4>
                             <p className="text-blue-500">$10000</p>

@@ -1,3 +1,5 @@
+import { Img} from '@chakra-ui/react'
+
 export default function productosador() {
     return (
 
@@ -9,7 +11,7 @@ export default function productosador() {
       <li>
         <div className="flex items-center">
           <a href="#" className="mr-2 text-sm font-medium text-gray-900"> Espejo </a>
-          <svg width="16" height="20" viewBox="0 0 16 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" classname="w-4 h-5 text-gray-300">
+          <svg width="16" height="20" viewBox="0 0 16 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className="w-4 h-5 text-gray-300">
             <path d="M5.697 4.34L8.98 16.532h1.327L7.025 4.341H5.697z" />
           </svg>
         </div>
@@ -18,7 +20,7 @@ export default function productosador() {
       <li>
         <div className="flex items-center">
           <a href="#" className="mr-2 text-sm font-medium text-gray-900"> Accesorios</a>
-          <svg width="16" height="20" viewBox="0 0 16 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" classname="w-4 h-5 text-gray-300">
+          <svg width="16" height="20" viewBox="0 0 16 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className="w-4 h-5 text-gray-300">
             <path d="M5.697 4.34L8.98 16.532h1.327L7.025 4.341H5.697z" />
           </svg>
         </div>
@@ -31,21 +33,21 @@ export default function productosador() {
   </nav>
 
 
-  <div classname="mt-6 max-w-2xl mx-auto sm:px-6 lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
-    <div classname="hidden aspect-w-3 aspect-h-4 rounded-lg overflow-hidden lg:block">
-      <img src="posa1/03.jpeg" alt="Two each of gray, white, and black shirts laying flat." className="w-full h-full object-center object-cover"/>
+  <div className="mt-6 max-w-2xl mx-auto sm:px-6 lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
+    <div className="hidden aspect-w-3 aspect-h-4 rounded-lg overflow-hidden lg:block">
+      <Img src="posa1/03.jpeg" alt="Two each of gray, white, and black shirts laying flat." className="w-full h-full object-center object-cover"/>
     </div>
     
     <div className="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
       <div className="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-        <img src="posa1/02.jpeg" alt="Model wearing plain black basic tee." className="w-full h-full object-center object-cover"></img>
+        <Img src="posa1/02.jpeg" alt="Model wearing plain black basic tee." className="w-full h-full object-center object-cover"/>
       </div>
       <div className="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-        <img src="posa1/04.jpeg" alt="Model wearing plain gray basic tee." className="w-full h-full object-center object-cover"></img>
+        <Img src="posa1/04.jpeg" alt="Model wearing plain gray basic tee." className="w-full h-full object-center object-cover"/>
       </div>
     </div>
     <div className="aspect-w-4 aspect-h-5 sm:rounded-lg sm:overflow-hidden lg:aspect-w-6 lg:aspect-h-4">
-      <img src="posa1/05.jpeg" alt="Model wearing plain white basic tee." className=" object-center object-cover"></img>
+      <Img src="posa1/05.jpeg" alt="Model wearing plain white basic tee." className=" object-center object-cover"/>
     </div>
   </div>
 
@@ -115,7 +117,7 @@ export default function productosador() {
 
                 <span aria-hidden="true" className="absolute -inset-px rounded-md border-2 border-gray-200 pointer-events-none">
                   <svg className="absolute inset-0 w-full h-full text-gray-200 stroke-2" viewBox="0 0 100 100" preserveAspectRatio="none" stroke="currentColor">
-                    <line x1="0" y1="100" x2="100" y2="0" vector-effect="non-scaling-stroke" />
+                    <line x1="0" y1="100" x2="100" y2="0"  />
                   </svg>
                 </span>
               </label>

@@ -1,3 +1,5 @@
+
+
 export default function posados() {
   return (
     <div className="bg-white">
@@ -66,7 +68,7 @@ export default function posados() {
               src="/posa1/mat2.jpeg"
               alt="Two each of gray, white, and black shirts laying flat."
               className="w-full h-full object-center object-cover"
-            />
+            ></img>
           </div>
 
           <div className="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
@@ -75,14 +77,14 @@ export default function posados() {
                 src="/posa1/mat3.jpeg"
                 alt="Model wearing plain black basic tee."
                 className="w-full h-full object-center object-cover"
-              />
+              ></img>
             </div>
             <div className="flex items-end shadow-md duration-200 hover:scale-125 hover:shadow-xl aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
               <img
                 src="/posa1/mat4.jpeg"
                 alt="Model wearing plain gray basic tee."
                 className="w-full h-full object-center object-cover"
-              />
+              ></img>
             </div>
           </div>
           <div className="  aspect-w-4 aspect-h-5 sm:rounded-lg sm:overflow-hidden lg:aspect-w-6 lg:aspect-h-4">
@@ -90,7 +92,7 @@ export default function posados() {
               src="/posa1/mat0.jpeg"
               alt="Model wearing plain white basic tee."
               className=" object-center object-cover"
-            />
+            ></img>
           </div>
         </div>
 
@@ -209,8 +211,7 @@ export default function posados() {
                             x1="0"
                             y1="100"
                             x2="100"
-                            y2="0"
-                            vector-effect="non-scaling-stroke"
+                            y2="0"            
                           />
                         </svg>
                       </span>

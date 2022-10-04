@@ -14,7 +14,7 @@ export default function Home() {
                  
                    <a href="child" className=" inline-flex items-center font-bold text-blue-600 hover:text-blue-800 dark:text-yellow-700 dark:hover:text-red-700 p-20">
                        galeria
-                       <svg className="ml-1 w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                       <svg className="ml-1 w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" ></path></svg>
                    </a>
                </div>
            </div>
@@ -25,25 +25,25 @@ export default function Home() {
          <section className="">
          <div className="py-16 white">  
     <div className="container m-auto px-6 text-gray-600">
-    <img class="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="espe1/image3.jpeg"/>
-        <h2 class="p-6 max-w-3xl mb-4 text-6xl font-extrabold font-bold text-yellow-400 dark:text-gray-500">Deco & Arte</h2>
-        <div class="grid gap-8  lg:grid-cols-2">
-        <img class="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="espe1/espe2b.jpeg"/>
-        <img class="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="espe1/espe3d.jpeg"/>
+    <img className="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="espe1/img3.jpeg"/>
+        <h2 className="p-6 max-w-3xl mb-4 text-6xl font-extrabold font-bold text-yellow-400 dark:text-gray-500">Deco & Arte</h2>
+        <div className="grid gap-8  lg:grid-cols-2">
+        <img className="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="espe1/espe2b.jpeg"/>
+        <img className="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="espe1/espe3d.jpeg"/>
         
         </div>
     
         </div>
         </div>
 
-        <div class="py-16 bg-white">  
-  <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
-      <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-        <div class="md:5/12 lg:w-5/12">
-          <img class="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="porespe2.jpeg" alt="image" loading="lazy" width="" height=""/>
+        <div className="py-16 bg-white">  
+  <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+      <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+        <div className="md:5/12 lg:w-5/12">
+          <img className="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="porespe2.jpeg" alt="img" loading="lazy" width="" height=""/>
         </div>
-        <div class="md:7/12 lg:w-6/12">
-          <h2 class="text-2xl text-gray-900 font-bold md:text-4xl">Todo los espacios reflejan tu interiorß</h2>
+        <div className="md:7/12 lg:w-6/12">
+          <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">Todo los espacios reflejan tu interiorß</h2>
           <p className="mt-6 text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!</p>
           <p className="mt-4 text-gray-600"> Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.</p>
         </div>
@@ -210,23 +210,23 @@ export default function Home() {
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
           <a className="text-gray-200">
-            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+            <svg fill="currentColor" strokelinecap="round" strokelinejoin="round" strokewidth="2" className="w-5 h-5" viewBox="0 0 24 24">
               <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
             </svg>
           </a>
           <a className="ml-3 text-gray-200">
-            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+            <svg fill="currentColor" strokelinecap="round" strokelinejoin="round" strokewidth="2" className="w-5 h-5" viewBox="0 0 24 24">
               <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
             </svg>
           </a>
           <a className="ml-3 text-gray-200">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+            <svg fill="none" stroke="currentColor" strokelinecap="round" strokelinejoin="round" strokewidth="2" className="w-5 h-5" viewBox="0 0 24 24">
               <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
               <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
             </svg>
           </a>
           <a className="ml-3 text-gray-200">
-            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" className="w-5 h-5" viewBox="0 0 24 24">
+            <svg fill="currentColor" stroke="currentColor" strokelinecap="round" strokelinejoin="round" strokewidth="0" className="w-5 h-5" viewBox="0 0 24 24">
               <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
               <circle cx="4" cy="4" r="2" stroke="none"></circle>
             </svg>
