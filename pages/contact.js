@@ -22,9 +22,9 @@ export default function Contact() {
                                         <form id="feedbackForm" action="" method="">
                                             <div className="relative w-full mb-3">
                                                 <label className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                            htmlFor="email">Email</label><input type="email" name="email" id="email" className="border-0 px-3 py-3 rounded text-sm shadow w-full
-                        bg-gray-300 placeholder-black text-gray-800 outline-none focus:bg-gray-400" placeholder=" "
-                            className="transition: all 0.15s ease 0s;" />
+                            htmlFor="email">Email</label><input type="email" name="email" id="email" className="border-0 px-3 py-3 rounded text-sm shadow w-full transition: all 0.15s ease 0s;
+                        bg-gray-300 placeholder-black text-gray-800 outline-none focus:bg-gray-400" 
+                            />
                         </div>
                                                 <div className="relative w-full mb-3">
                                                     <label className="block uppercase text-gray-700 text-xs font-bold mb-2"
@@ -35,8 +35,8 @@ export default function Contact() {
                                                 </div>
                                                 <div className="text-center mt-6">
                                                     <button id="feedbackBtn"
-                            className="bg-yellow-300 text-black text-center mx-auto active:bg-yellow-400 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                            type="submit" className="transition: all 0.15s ease 0s;">Submit
+                            className="bg-yellow-300 text-black text-center mx-auto active:bg-yellow-400 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 transition: all 0.15s ease 0s;"
+                            type="submit" >Submit
                           </button>
                                                 </div>
                                         </form>
