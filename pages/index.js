@@ -25,7 +25,7 @@ export default function Home() {
          <section className="">
          <div className="py-16 white">  
     <div className="container m-auto px-6 text-gray-600">
-    <img className="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="espe1/img3.jpeg"/>
+    <img className="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" />
         <h2 className="p-6 max-w-3xl mb-4 text-6xl font-extrabold font-bold text-yellow-400 dark:text-gray-500">Deco & Arte</h2>
         <div className="grid gap-8  lg:grid-cols-2">
         <img className="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="espe1/espe2b.jpeg"/>
