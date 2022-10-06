@@ -43,7 +43,7 @@ export default function Home() {
           <img className="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="porespe2.jpeg" alt="img" loading="lazy" width="" height=""/>
         </div>
         <div className="md:7/12 lg:w-6/12">
-          <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">Todo los espacios reflejan tu interiorß</h2>
+          <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">Una Opcion en todos los espacios </h2>
           <p className="mt-6 text-gray-600">wdasdasdasdasdasd sarasarasaras</p>
           <p className="mt-4 text-gray-600"> asdasdasdasdasdasdas sarsaarasssrsarsa</p>
         </div>
