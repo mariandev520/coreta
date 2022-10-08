@@ -123,19 +123,19 @@ export default function Home() {
        </section>
        <section>
        <div className="relative">
-    <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-fondopaq1 duration-200 ">
+    <div className="bg-cover rounded-full  sticky top-0 h-screen flex flex-col items-center justify-center bg-fondopaq1 duration-200 ">
         <h2 className="mb-32 text-7xl font-extrabold font-bold text-yellow-500 dark:text-white">Encuentra</h2>
         
     </div>
-    <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-fondona text-white ">
+    <div className="sticky  top-0 rounded-full  h-screen flex flex-col items-center justify-center bg-fondona text-white ">
         <h2 className="mb-4 text-7xl font-extrabold font-bold text-white  dark:text-white">los Articulos</h2>
     
     </div>
-    <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-fondon text-gray-200 ">
+    <div className="bg-center rounded-full  sticky top-0 h-screen flex flex-col items-center justify-center bg-fondon text-gray-200 ">
         <h2 className="mb-4 text-7xl font-extrabold font-bold text-yellow-500 dark:text-white">que crean </h2>
    
     </div>
-    <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-fondopaq text-gray-500 ">
+    <div className="bg-cover rounded-full  sticky top-0 h-screen flex flex-col items-center justify-center bg-fondopaq text-gray-500 ">
         <h2 className="mb-4 text-7xl font-extrabold font-bold text-yellow-500 dark:text-white">tu estilo</h2>
     </div>
 </div>
