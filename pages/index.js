@@ -28,8 +28,8 @@ export default function Home() {
     <img className="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" />
         <h2 className="p-6 max-w-3xl mb-4 text-6xl font-extrabold font-bold text-yellow-400 dark:text-gray-500">Deco & Arte</h2>
         <div className="grid gap-8  lg:grid-cols-2">
-        <img className="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="espe1/espe2b.jpeg"/>
-        <img className="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="espe1/espe3d.jpeg"/>
+        <img className="duration-200 hover:scale-105 hover:shadow-xl w-full shadow-lg shadow-yellow-500/50  rounded-lg" src="espe1/espe2b.jpeg"/>
+        <img className="duration-200 hover:scale-105 hover:shadow-xl w-full shadow-lg shadow-blue-500/50  rounded-lg" src="espe1/espe3d.jpeg"/>
         
         </div>
     
@@ -40,7 +40,7 @@ export default function Home() {
   <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
       <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
         <div className="md:5/12 lg:w-5/12">
-          <img className="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="porespe2.jpeg" alt="img" loading="lazy" width="" height=""/>
+          <img className="duration-200 hover:scale-105 hover:shadow-xl w-full shadow-lg shadow-gray-500/50  rounded-lg" src="porespe2.jpeg" alt="img" loading="lazy" width="" height=""/>
         </div>
         <div className="md:7/12 lg:w-6/12">
           <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">Una Opcion en todos los espacios </h2>
