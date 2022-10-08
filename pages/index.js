@@ -132,7 +132,7 @@ export default function Home() {
     
     </div>
     <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-fondon text-gray-200 ">
-        <h2 className="mb-4 text-8xl font-extrabold font-bold text-yellow-500 dark:text-white">que hacen </h2>
+        <h2 className="mb-4 text-8xl font-extrabold font-bold text-yellow-500 dark:text-white">que crean </h2>
    
     </div>
     <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-fondopaq text-gray-500 ">
