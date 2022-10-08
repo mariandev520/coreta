@@ -121,8 +121,26 @@ export default function Home() {
                </div>
            </div>
        </section>
-   
-   
+       <section>
+       <div class="relative">
+    <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-yellow-400">
+        <h2 class="text-4xl">Encuentra</h2>
+        
+    </div>
+    <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-yellow-200 text-white">
+        <h2 class="text-4xl">Tus Articulos</h2>
+        <p>Scroll Down</p>
+    </div>
+    <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-yellow-100 text-gray-200">
+        <h2 class="text-4xl">que hacen </h2>
+        <p>Scroll Down</p>
+    </div>
+    <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gray-50 text-gray-500">
+        <h2 class="text-4xl">el toque justo</h2>
+    </div>
+</div>
+</section>
+
 <footer className="text-gray-700 body-font bg-yellow-50">
     <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
       <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
