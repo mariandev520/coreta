@@ -1,3 +1,4 @@
+import { Img } from "@chakra-ui/react";
 
 
 
@@ -11,26 +12,14 @@ export default function productesC() {
     <ol role="list" className="max-w-2xl mx-auto px-4 flex items-center space-x-2 sm:px-6 lg:max-w-7xl lg:px-8">
       <li>
         <div className="flex items-center">
-          <a href="#" className="mr-2 text-sm font-medium text-gray-900"> Espejo </a>
+          <a href="child" className="mr-2 text-sm font-medium text-gray-900"> Volver </a>
           <svg width="16" height="20" viewBox="0 0 16 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className="w-4 h-5 text-gray-300">
             <path d="M5.697 4.34L8.98 16.532h1.327L7.025 4.341H5.697z" />
           </svg>
         </div>
       </li>
-
-      <li>
-        <div className="flex items-center">
-          <a href="#" className="mr-2 text-sm font-medium text-gray-900"> Accesorios</a>
-          <svg width="16" height="20" viewBox="0 0 16 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className="w-4 h-5 text-gray-300">
-            <path d="M5.697 4.34L8.98 16.532h1.327L7.025 4.341H5.697z" />
-          </svg>
-        </div>
-      </li>
-
-      <li className="text-sm">
-        <a href="#" aria-current="page" className="font-medium text-gray-500 hover:text-gray-600"> Espejos</a>
-      </li>
-    </ol>
+      </ol>
+   
   </nav>
 
 
@@ -93,7 +82,7 @@ export default function productesC() {
             </svg>
           </div>
           <p className="sr-only">4 out of 5 stars</p>
-          <a href="#" className="ml-3 text-sm font-medium text-indigo-600 hover:text-indigo-500">117 reviews</a>
+          <a href="#" className="ml-3 text-sm font-medium text-indigo-600 hover:text-indigo-500">117 Vistas</a>
         </div>
       </div>
 
@@ -104,8 +93,8 @@ export default function productesC() {
        
         <div className="mt-10">
           <div className="flex items-center justify-between">
-            <h3 className="text-sm text-gray-900 font-medium">Size</h3>
-            <a href="#" className="text-sm font-medium text-indigo-600 hover:text-indigo-500">Size guide</a>
+            <h3 className="text-sm text-gray-900 font-medium">Medida</h3>
+            <a href="#" className="text-sm font-medium text-indigo-600 hover:text-indigo-500"></a>
           </div>
 
           <fieldset className="mt-4">
@@ -141,7 +130,7 @@ export default function productesC() {
               </label>
 
 
-              <label className="group relative border rounded-md py-3 px-4 flex items-center justify-center text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:flex-1 sm:py-6 bg-white shadow-sm text-gray-900 cursor-pointer">
+              <label className="group relative border rounded-md py-3 px-4 flex items-center justify-center text-sm font-medium uppercase hover:bg-red-500 focus:outline-none sm:flex-1 sm:py-6 bg-white shadow-sm text-gray-900 cursor-pointer">
                 <input type="radio" name="size-choice" value="M" className="sr-only" aria-labelledby="size-choice-3-label"/>
                 <span id="size-choice-3-label"> M </span>
 
@@ -188,7 +177,7 @@ export default function productesC() {
           </fieldset>
         </div>
 
-        <button type="submit" className="mt-10 w-full bg-indigo-600 border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Add to bag</button>
+        <button type="submit" className="mt-10 w-full bg-purple-500 border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Comprar</button>
       </form>
     </div>
 
@@ -198,31 +187,34 @@ export default function productesC() {
         <h3 className="sr-only">Descripcion</h3>
 
         <div className="space-y-6">
-          <p className="text-base text-gray-900">The Basic Tee 6-Pack allows you to fully express your vibrant personality with three grayscale options. Feeling adventurous? Put on a heather gray tee. Want to be a trendsetter? Try our exclusive colorway: &quot;Black&quot;. Need to add an extra pop of color to your outfit? Our white tee has you covered.</p>
+          <p className="text-base text-gray-900">Medidas: 45cm Diametro</p>
+          <p className="text-base text-gray-900">Color:Blanco chips grises {
+            
+          }</p>
         </div>
       </div>
 
       <div className="mt-10">
-        <h3 className="text-sm font-medium text-gray-900">Highlights</h3>
+        <h3 className="text-sm font-medium text-gray-900">Espacios Adecuados</h3>
 
         <div className="mt-4">
           <ul role="list" className="pl-4 list-disc text-sm space-y-2">
-            <li className="text-gray-400"><span className="text-gray-600">Hand cut and sewn locally</span></li>
+            <li className="text-gray-400"><span className="text-gray-600">Baño</span></li>
 
-            <li className="text-gray-400"><span className="text-gray-600">Dyed with our proprietary colors</span></li>
+            <li className="text-gray-400"><span className="text-gray-600">Habitacion</span></li>
 
-            <li className="text-gray-400"><span className="text-gray-600">Pre-washed &amp; pre-shrunk</span></li>
+            <li className="text-gray-400"><span className="text-gray-600">Recibidor</span></li>
 
-            <li className="text-gray-400"><span className="text-gray-600">Ultra-soft 100% cotton</span></li>
+            <li className="text-gray-400"><span className="text-gray-600">Living</span></li>
           </ul>
         </div>
       </div>
 
       <div className="mt-10">
-        <h2 className="text-sm font-medium text-gray-900">Details</h2>
+        <h2 className="text-sm font-medium text-gray-900">Detalles</h2>
 
         <div className="mt-4 space-y-6">
-          <p className="text-sm text-gray-600">The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming &quot;Charcoal Gray&quot; limited release.</p>
+          <p className="text-sm text-gray-600">Se puede utilizar tanto para espacios minimalistas o espacios vintage su armonioza sintonia blanca da equilibrio en ambas intervensiones</p>
         </div>
       </div>
     </div>
