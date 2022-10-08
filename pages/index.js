@@ -123,20 +123,20 @@ export default function Home() {
        </section>
        <section>
        <div className="relative">
-    <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-fondopaq1">
-        <h2 className="mb-4 text-4xl font-extrabold text-yellow-500 dark:text-white">Encuentra</h2>
+    <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-fondopaq1 duration-200 ">
+        <h2 className="mb-32 text-8xl font-extrabold font-bold text-yellow-500 dark:text-gray-600">Encuentra</h2>
         
     </div>
-    <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-fondona text-white">
-        <h2 className="mb-4 text-4xl font-extrabold text-white  dark:text-white">los Articulos</h2>
+    <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-fondona text-white ">
+        <h2 className="mb-4 text-8xl font-extrabold font-bold text-white  dark:text-gray-600">los Articulos</h2>
     
     </div>
-    <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-fondon text-gray-200">
-        <h2 className="mb-4 text-4xl font-extrabold text-yellow-500 dark:text-white">que hacen </h2>
+    <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-fondon text-gray-200 ">
+        <h2 className="mb-4 text-8xl font-extrabold font-bold text-yellow-500 dark:text-gray-600">que hacen </h2>
    
     </div>
-    <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-fondopaq text-gray-500">
-        <h2 className="mb-4 text-4xl font-extrabold text-yellow-500 dark:text-yellow-700">el toque justo</h2>
+    <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-fondopaq text-gray-500 ">
+        <h2 className="mb-4 text-8xl font-extrabold font-bold text-yellow-500 dark:text-gray-600">tu estilo</h2>
     </div>
 </div>
 </section>
