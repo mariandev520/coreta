@@ -111,7 +111,7 @@ export default function Home() {
          <section className="animate__animated  bg-white dark:bg-white">
            <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
                <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                   <h2 className="mb-4 text-4xl font-extrabold text-yellow-500 dark:text-yellow-700">CAMPO CREATIVO</h2>
+                   <h2 className="mb-4 text-5xl font-extrabold font-bold text-yellow-500 dark:text-gray-500">Campo Creativo</h2>
                    <p className="mb-4"></p>
                    <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
                </div>
@@ -140,6 +140,8 @@ export default function Home() {
     </div>
 </div>
 </section>
+
+
 
 <footer className="text-gray-700 body-font bg-yellow-50">
     <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
