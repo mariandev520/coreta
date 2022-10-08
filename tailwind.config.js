@@ -10,8 +10,10 @@ module.exports = {
         'mosssa': "url('../public/mossssa.png')",
         'fondop': "url('../public/portad.jpeg')",
         'fondopa': "url('../public/espe1/espe2.jpg')",
-        'fondopaq': "url('../public/posa1/05.jpeg')",
-        'fondopaq': "url('../public/portamase.jpeg')",
+        'fondopaq1': "url('../public/posa1/06.jpeg')",
+        'fondopaq': "url('../public/espe1/espe2d.jpeg')",
+        'fondon': "url('../public/espe1/image4.jpeg')",
+        'fondona': "url('../public/espe1/espe3c.jpeg')",
 
       },
   },
