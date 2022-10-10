@@ -12,7 +12,7 @@ export default function arte() {
             <div className="lg:flex lg:-mx-2">
                 <div className="space-y-3 lg:w-1/5 lg:px-2 lg:space-y-4">
                     <a href="child" className="block font-medium text-gray-500 dark:text-gray-300 hover:underline">Espejos</a>
-                    <a href="accesorios" className="block font-medium text-gray-500 dark:text-gray-300 hover:underline">Merienda</a>
+                    <a href="accesorios" className="block font-medium text-gray-500 dark:text-gray-300 hover:underline">Objetos Deco</a>
                     <a href="arte" className="block font-medium text-blue-600 dark:text-blue-500 hover:underline">Deco Hogar</a>
                   
                 </div>
