@@ -9,7 +9,7 @@ export default function Home() {
    <Header className />
     <section className="p-6 ">
        <section className="container mx-auto "  >
-           <div className="mx-auto lg:py-16 lg:px-6 overflow-hidden rounded-lg shadow-lg shadow-green-200/50  rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl bg-fondop  " src="respov.jpeg" >
+           <div className="mx-auto lg:py-16 lg:px-6 overflow-hidden rounded-lg shadow-lg shadow-green-200/50  rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl bg-fondop  "ß >
                <div className="max-w-screen-lg text-gray-100 sm:text-lg dark:text-gray-100">
                    <h2 className="text-lg font-semibold text-left text-blue-500 sm:text-6xl text-yellow-400 dark:text-gray-500">Diseño <span className="font-extrabold "></span>en tus espacios</h2>
                  <Link href="child">
@@ -129,7 +129,7 @@ export default function Home() {
         <h2 className="mb-32 text-7xl font-extrabold font-bold text-yellow-500 dark:text-white">Encuentra</h2>
         
     </div>
-    <div className="sticky  top-0 rounded-lg shadow-lg shadow-gray-500/50 h-screen flex flex-col items-center justify-center bg-fondona text-white ">
+    <div className="sticky  top-0 rounded-lg shadow-lg shadow-gray-500/50 h-screen flex flex-col items-center justify-center bg-fondopa text-white ">
         <h2 className="mb-4 text-7xl font-extrabold font-bold text-white  dark:text-white">los Articulos</h2>
     
     </div>
