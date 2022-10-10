@@ -9,10 +9,10 @@ export default function quien() {
 
         <div className="w-full">
        
-<div id="blog" className="bg-gray-100 px-4 xl:px-4 py-14">
+<div id="blog" className=" px-4 xl:px-4 py-14">
                     <div className="mx-auto container">
                         <span role="contentinfo">
-                        <h1  className="focus:outline-none text-center text-3xl lg:text-5xl tracking-wider text-gray-900">Proceso Creativo </h1>
+                        <h1  className="text-lg font-semibold text-center text-blue-500 sm:text-6xl text-yellow-400 dark:text-gray-500">El Taller del Proceso Creativo </h1>
                     </span>
                         <div   aria-label="Group of cards" className="focus:outline-none mt-12 lg:mt-24">
                             <div  className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8">
