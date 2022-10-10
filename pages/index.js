@@ -10,12 +10,12 @@ export default function Home() {
        <section className="container mx-auto "  >
            <div className="mx-auto lg:py-16 lg:px-6 overflow-hidden rounded-lg shadow-lg shadow-green-200/50  rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl bg-fondop">
                <div className="max-w-screen-lg text-gray-100 sm:text-lg dark:text-gray-100">
-                   <h2 className="max-w-3xl mb-4 text-6xl font-extrabold font-bold text-yellow-400 dark:text-gray-500">Diseño <span className="font-extrabold"></span>en tus espacios</h2>
+                   <h2 className="text-lg font-semibold text-left text-blue-500 sm:text-6xl text-yellow-400 dark:text-gray-500">Diseño <span className="font-extrabold "></span>en tus espacios</h2>
                  
-                   <a href="child" className=" inline-flex items-center font-bold text-blue-600 hover:text-blue-800 dark:text-yellow-700 dark:hover:text-red-700 p-20">
+                   <button href="child" className="border border-gray-200 bg-blue-400 text-white rounded-lg  px-8 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-400 focus:outline-none focus:shadow-outline">
                        galeria
-                       <svg className="ml-1 w-6 h-6" fillRule="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" ></path></svg>
-                   </a>
+                       
+                   </button>
                </div>
            </div>
            
@@ -26,7 +26,7 @@ export default function Home() {
          <div className="py-16 white">  
     <div className="container m-auto px-6 text-gray-600">
     <img className="duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" />
-        <h2 className="p-6 max-w-3xl mb-4 text-6xl font-extrabold font-bold text-yellow-400 dark:text-gray-500">Deco & Arte</h2>
+        <h2 className="p-6 max-w-3xl mb-4 mt-3 md:text-6xl font-extrabold font-bold text-yellow-400 dark:text-gray-500">Deco & Arte</h2>
         <div className="grid gap-8  lg:grid-cols-2">
         <img className="duration-200 hover:scale-105 hover:shadow-xl w-full shadow-lg shadow-yellow-500/50  rounded-lg" src="espe1/espe2b.jpeg"/>
         <img className="duration-200 hover:scale-105 hover:shadow-xl w-full shadow-lg shadow-blue-500/50  rounded-lg" src="espe1/espe3d.jpeg"/>
