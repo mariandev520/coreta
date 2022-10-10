@@ -1,5 +1,6 @@
 import Header from "./header";
 import 'animate.css';
+import {  Link } from "@chakra-ui/react";
 
 export default function Home() {
   return (
@@ -8,14 +9,15 @@ export default function Home() {
    <Header className />
     <section className="p-6 ">
        <section className="container mx-auto "  >
-           <div className="mx-auto lg:py-16 lg:px-6 overflow-hidden rounded-lg shadow-lg shadow-green-200/50  rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl bg-fondop">
+           <div className="mx-auto lg:py-16 lg:px-6 overflow-hidden rounded-lg shadow-lg shadow-green-200/50  rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl bg-fondop  " src="respov.jpeg" >
                <div className="max-w-screen-lg text-gray-100 sm:text-lg dark:text-gray-100">
                    <h2 className="text-lg font-semibold text-left text-blue-500 sm:text-6xl text-yellow-400 dark:text-gray-500">Diseño <span className="font-extrabold "></span>en tus espacios</h2>
-                 
-                   <button href="child" className="border border-gray-200 bg-blue-400 text-white rounded-lg  px-8 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-400 focus:outline-none focus:shadow-outline">
+                 <Link href="child">
+                   <button  className="border border-gray-200 bg-blue-400 text-white rounded-lg  px-8 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-400 focus:outline-none focus:shadow-outline">
                        galeria
                        
                    </button>
+                   </Link>
                </div>
            </div>
            
