@@ -68,13 +68,15 @@ export default function child() {
                             </Link>
                             <h4 className="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Espejo Baño</h4>
                             <p className="text-blue-500">$9700</p>
-
+                            <Link
+                                href="https://www.mercadolibre.com/jms/mla/lgz/msl/login/H4sIAAAAAAAEA21QwUrDQBD9l4XmlDRNxNoGgtSCBzHgQQQRWbabSbp2sxt3J03S0n93UhAvwlzmzXvzZt6ZaVsrw3FsgWVs140sZK0WWFnXcFUS1miCvEL4bcVEEU40gOA8y87TjhrKByDRtKUS2gORRId7XmnbE3a1IUx5DgPpjNC8h91RAU2vgpDVloh7xNZncdz3_bwBJ0Vptdo5mEvbzIWL61Ms9yAPtsOYzr3n0rsqH8Z0WIzbIeKVKl-benxLzcmod7lpl8f1y7ZYiiKgo8Eg75zOry6zm80sfaQSDpXstP3PkMbF8yZKktU6WdzdrtIIfAtfNiqVB2Mj_lQE0hqkr_KjagMKagouJ9GfJmhsCXkragi-O2FQ4Zgn7BJSVB45OiEPLEPXQchKkFoZoOQ_Pi8_k4TgpZ8BAAA/notregistered">
                             <button className="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-gray-800 rounded-md hover:bg-gray-700 focus:outline-none focus:bg-gray-700">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
                                     <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
                                 </svg>
                                 <span className="mx-1">Comprar</span>
                             </button>
+                            </Link>
                         </div>
 
                         <div className="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
