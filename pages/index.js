@@ -46,8 +46,8 @@ export default function Home() {
         </div>
         <div className="md:7/12 lg:w-6/12">
           <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">Una Opcion en todos los espacios </h2>
-          <p className="mt-6 text-gray-600">wdasdasdasdasdasd sarasarasaras</p>
-          <p className="mt-4 text-gray-600"> asdasdasdasdasdasdas sarsaarasssrsarsa</p>
+          <p className="mt-6 text-gray-600">Elije armonizar tus espacios con colores y objetos que completen tu lugar</p>
+          <p className="mt-4 text-gray-600"> </p>
         </div>
       </div>
   </div>
@@ -117,7 +117,7 @@ export default function Home() {
                <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                    <h2 className="mb-4 text-5xl font-extrabold font-bold text-yellow-500 dark:text-gray-500">Campo Creativo</h2>
                    <p className="mb-4"></p>
-                   <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
+                   <p>Este el espacio donde las ideas y la materialidad se juntan para expresarse en arte</p>
                </div>
                <div className="grid grid-cols-2 gap-4 mt-8">
                    <img  className="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl w-full rounded-lg" src="portadix.jpeg" alt="office content 1"/>
