@@ -13,7 +13,8 @@ module.exports = {
         'fondopaq1': "url('../public/posa1/06.jpeg')",
         'fondopaq': "url('../public/espe1/espe2d.jpeg')",
         'fondon': "url('../public/espe1/image4.jpeg')",
-        'fondona': "url('../public/espe1/espe3c.jpeg')",
+        'desktop': "url('../public/desktop.jpg')",
+
 
       },
   },
