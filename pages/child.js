@@ -9,22 +9,18 @@ export default function child() {
         <div className="container px-6 py-8 mx-auto">
             <div className="lg:flex lg:-mx-2">
                 <div className="space-y-3 lg:w-1/5 lg:px-2 lg:space-y-4">
-                    <a href="child" className="block font-medium text-gray-500 dark:text-gray-300 hover:underline">Espejos</a>
-                    <a href="accesorios" className="block font-medium text-gray-500 dark:text-gray-300 hover:underline">Objetos Deco</a>
-                    <a href="arte" className="block font-medium text-blue-600 dark:text-blue-500 hover:underline">Deco Hogar</a>
+                    <a href="child" className="block font-medium text-gray-500 dark:text-gray-600 hover:underline">Espejos</a>
+                    <a href="accesorios" className="block font-medium text-gray-500 dark:text-gray-600 hover:underline">Objetos Deco</a>
+          
                 
                 </div>
 
                 <div className="mt-6 lg:mt-0 lg:px-2 lg:w-4/5 ">
                     <div className="flex items-center justify-between text-sm tracking-widest uppercase ">
-                        <p className="text-gray-500 dark:text-gray-300">6 Items</p>
+                        <p className="text-gray-500 dark:text-gray-300"></p>
                         <div className="flex items-center">
-                            <p className="text-gray-500 dark:text-gray-300">Sort</p>
-                            <select className="font-medium text-gray-700 bg-transparent dark:text-gray-500 focus:outline-none">
-                                <option value="#">Recommended</option>
-                                <option value="#">Size</option>
-                                <option value="#">Price</option>
-                            </select>
+                            <p className="text-gray-500 dark:text-gray-300"></p>
+                            
                         </div>
                     </div>
 
