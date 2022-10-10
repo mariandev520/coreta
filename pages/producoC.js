@@ -1,4 +1,4 @@
-import { Img } from "@chakra-ui/react";
+import { Img,Link } from "@chakra-ui/react";
 
 
 
@@ -176,9 +176,17 @@ export default function productesC() {
             </div>
           </fieldset>
         </div>
-
-        <button type="submit" className="mt-10 w-full bg-purple-500 border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Comprar</button>
+        <Link href="https://www.mercadolibre.com/jms/mla/lgz/msl/login/H4sIAAAAAAAEA21QS2vCQBD-LwvmlJhGPdhAKGnBQ1VKCy1CKcu6mcQ1m2y6O2t84H_vRCi9FOYy33wv5sK0qVTL8dQBS9nWn1jIOi2wNLbhqiCs0QQ5hfC7ioEirGgAwTqWXgaPCopHINHgUgrtgEjC446X2vSE3WIIU47DkXSt0LyH7UEBXW-CkFWGiDvEzqVx3Pf9uAErRWG02loYS9OMhY2rcyx3IGvjMaa6D1RsKJqtV3mSzO9ns-k8uQukaZFysoPqgm8vWlR4ypKAakOL3Fud3XJG03w0WdAIi0p6bf6LpDOZR3_uEbgO9iYqlIPWRPx5HTSmgKwTFQRcOltmh3IzXeTLZbQ5nlcLn79Js69N9VFOXrx-fYK2fq_ZNaRXOeRohaxZitZDyAqQWrVAn__8uv4Af8s5Yp8BAAA/notregistered">
+                            <button className="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-gray-800 rounded-md hover:bg-gray-700 focus:outline-none focus:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>
+                                <span className="mx-1">Comprar</span>
+                            </button>
+                            </Link>
+                          
       </form>
+      
     </div>
 
     <div className="py-10 lg:pt-6 lg:pb-16 lg:col-start-1 lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
