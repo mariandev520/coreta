@@ -1,5 +1,6 @@
 import Header from "./header";
 import { Img } from "@chakra-ui/react";
+import Footer from "./footer";
 
 export default function quien() {
     return (
@@ -93,6 +94,7 @@ export default function quien() {
                 </div>
 
 </div>
+<Footer />
 </>
 )
 }

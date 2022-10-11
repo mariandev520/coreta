@@ -1,5 +1,6 @@
 import Header from "./header";
 import { Link ,Image} from '@chakra-ui/react'
+import Footer from "./footer";
 
 export default function child() {
     return (
@@ -112,6 +113,7 @@ export default function child() {
         </div>
 
     </section>
+    <Footer />
    
   </>
 )
