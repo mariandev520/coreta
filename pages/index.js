@@ -161,76 +161,65 @@ export default function Home() {
           <h2 className="title-font font-bold text-gray-600 tracking-widest text-md mb-3">Donde encontranos?</h2>
           <nav className="list-none mb-10">
             <li>
-              <a className="text-gray-300 hover:text-red-300" href="#">First Link</a>
+              <a className="text-gray-300 hover:text-red-300" href="#">Nuestras Redes Sociales</a>
             </li>
             <li>
-              <a className="text-gray-300 hover:text-red-300" href="#">Second Link</a>
+              <a className="text-gray-300 hover:text-red-300" href="#">Tienda</a>
             </li>
             <li>
-              <a className="text-gray-300 hover:text-red-300" href="#">Third Link</a>
+              <a className="text-gray-300 hover:text-red-300" href="#">Taller</a>
             </li>
-            <li>
-              <a className="text-gray-300 hover:text-red-300" href="#">Fourth Link</a>
-            </li>
+          
           </nav>
         </div>
         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
           <h2 className="title-font font-bold text-gray-600 tracking-widest text-md mb-3">Nuestros Diseños</h2>
           <nav className="list-none mb-10">
             <li>
-              <a className="text-gray-300 hover:text-red-300" href="#">First Link</a>
+              <a className="text-gray-300 hover:text-red-300" href="child">Espejos</a>
             </li>
             <li>
-              <a className="text-gray-300 hover:text-red-300" href="#">Second Link</a>
+              <a className="text-gray-300 hover:text-red-300" href="#">Accesorios</a>
             </li>
             <li>
-              <a className="text-gray-300 hover:text-red-300" href="#">Third Link</a>
+              <a className="text-gray-300 hover:text-red-300" href="#">Intervenciones Artisticas</a>
             </li>
-            <li>
-              <a className="text-gray-300 hover:text-red-300" href="#">Fourth Link</a>
-            </li>
+          
           </nav>
         </div>
         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
           <h2 className="title-font font-bold text-gray-600 tracking-widest text-md mb-3">Tienda</h2>
           <nav className="list-none mb-10">
             <li>
-              <a className="text-gray-300 hover:text-red-300" href="#">First Link</a>
+              <a className="text-gray-300 hover:text-red-300" href="child">Compra Online</a>
             </li>
             <li>
-              <a className="text-gray-300 hover:text-red-300" href="#">Second Link</a>
+              <a className="text-gray-300 hover:text-red-300" href="#">Compra x WhatsApp</a>
             </li>
-            <li>
-              <a className="text-gray-300 hover:text-red-300" href="#">Third Link</a>
-            </li>
-            <li>
-              <a className="text-gray-300 hover:text-red-300" href="#">Fourth Link</a>
-            </li>
+          
           </nav>
         </div>
         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
           <h2 className="title-font font-bold text-white tracking-widest text-md mb-3">Quienes Somos?</h2>
           <nav className="list-none mb-10">
             <li>
-              <a className="text-white hover:text-red-300" href="#">First Link</a>
+              <a className="text-white hover:text-red-300" href="#">Corina Artesanias en redes sociales</a>
             </li>
             <li>
-              <a className="text-white hover:text-red-300" href="#">Second Link</a>
+              <a className="text-white hover:text-red-300" href="quien">Historia</a>
             </li>
             <li>
-              <a className="text-white hover:text-red-300" href="#">Third Link</a>
+              <a className="text-white hover:text-red-300" href="#">Mar del Plata</a>
             </li>
-            <li>
-              <a className="text-white hover:text-red-300" href="#">Fourth Link</a>
-            </li>
+           
           </nav>
         </div>
       </div>
     </div>
     <div className="bg-white">
       <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-        <p className="text-white text-sm text-center sm:text-left">© 2020 Dev —
-          <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-400 ml-1" target="_blank">@Developer</a>
+        <p className="text-white text-sm text-center sm:text-left">© 2020 MAD.DEV.AR
+          <a href="https://www.mad.net.ar/" rel="noopener noreferrer" className="text-gray-400 ml-1" target="_blank">mad.net.ar</a>
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
           <a className="text-gray-200">
