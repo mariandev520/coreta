@@ -2,11 +2,14 @@ import Header from "./header";
 import { Img } from "@chakra-ui/react";
 import Footer from "./footer";
 
+
 export default function quien() {
     return (
 
             <>
         <Header />
+
+   
 
         <div className="w-full">
        
@@ -94,6 +97,8 @@ export default function quien() {
                 </div>
 
 </div>
+
+
 <Footer />
 </>
 )
