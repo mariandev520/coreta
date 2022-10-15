@@ -40,7 +40,7 @@ export default function productoim() {
 
   <div className="max-w-2xl mx-auto pt-10 pb-16 px-4 sm:px-6 lg:max-w-7xl lg:pt-16 lg:pb-24 lg:px-8 lg:grid lg:grid-cols-3 lg:grid-rows-[auto,auto,1fr] lg:gap-x-8">
     <div className="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
-      <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:tracking-tight sm:text-3xl">Deco</h1>
+      <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:tracking-tight sm:text-3xl">Caracteristicas</h1>
     </div>
 
 
@@ -89,7 +89,7 @@ export default function productoim() {
        
         <div className="mt-10">
           <div className="flex items-center justify-between">
-            <h3 className="text-sm text-gray-900 font-medium">Size</h3>
+            <h3 className="text-sm text-gray-900 font-medium">Medida</h3>
             <a href="#" className="text-sm font-medium text-indigo-600 hover:text-indigo-500">Size guide</a>
           </div>
 
@@ -135,7 +135,7 @@ export default function productoim() {
               </label>
 
          
-              <label className="group relative border rounded-md py-3 px-4 flex items-center justify-center text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:flex-1 sm:py-6 bg-white shadow-sm text-gray-900 cursor-pointer">
+              <label className="group relative border rounded-md py-3 px-4 flex items-center justify-center text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:flex-1 sm:py-6 bg-red shadow-sm text-Red-900 cursor-pointer">
                 <input type="radio" name="size-choice" value="L" className="sr-only" aria-labelledby="size-choice-4-label"/>
                 <span id="size-choice-4-label"> L </span>
 
@@ -173,7 +173,7 @@ export default function productoim() {
           </fieldset>
         </div>
 
-        <button type="submit" className="mt-10 w-full bg-indigo-600 border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Add to bag</button>
+        <button type="submit" className="mt-10 w-full bg-gray-600 border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Comprar</button>
       </form>
     </div>
 
@@ -183,31 +183,31 @@ export default function productoim() {
         <h3 className="sr-only">Descripcion</h3>
 
         <div className="space-y-6">
-          <p className="text-base text-gray-900">The Basic Tee 6-Pack allows you to fully express your vibrant personality with three grayscale options. Feeling adventurous? Put on a heather gray tee. Want to be a trendsetter? Try our exclusive colorway: &quot;Black&quot;. Need to add an extra pop of color to your outfit? Our white tee has you covered.</p>
+          <p className="text-base text-gray-900"></p>
         </div>
       </div>
 
       <div className="mt-10">
-        <h3 className="text-sm font-medium text-gray-900">Highlights</h3>
+        <h3 className="text-sm font-medium text-gray-900">Medidas</h3>
 
         <div className="mt-4">
           <ul role="list" className="pl-4 list-disc text-sm space-y-2">
-            <li className="text-gray-400"><span className="text-gray-600">Hand cut and sewn locally</span></li>
+            <li className="text-gray-400"><span className="text-gray-600">Ancho : 30cm</span></li>
 
-            <li className="text-gray-400"><span className="text-gray-600">Dyed with our proprietary colors</span></li>
+            <li className="text-gray-400"><span className="text-gray-600">Alto: 40cm</span></li>
 
-            <li className="text-gray-400"><span className="text-gray-600">Pre-washed &amp; pre-shrunk</span></li>
+            <li className="text-gray-400"><span className="text-gray-600">Espacios Coloridos</span></li>
 
-            <li className="text-gray-400"><span className="text-gray-600">Ultra-soft 100% cotton</span></li>
+            <li className="text-gray-400"><span className="text-gray-600">Colores Calidos , verde</span></li>
           </ul>
         </div>
       </div>
 
       <div className="mt-10">
-        <h2 className="text-sm font-medium text-gray-900">Details</h2>
+        <h2 className="text-sm font-medium text-gray-900">Sugerencias</h2>
 
         <div className="mt-4 space-y-6">
-          <p className="text-sm text-gray-600">The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming &quot;Charcoal Gray&quot; limited release.</p>
+          <p className="text-sm text-gray-600">Ideal para continuar ambientando espacios donde hay mucho color, o espacios blancos para darles alegria</p>
         </div>
       </div>
     </div>
