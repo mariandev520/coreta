@@ -62,7 +62,7 @@ export default function Home() {
         <div className="py-16 bg-white">  
   <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
       <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-        <div className="md:5/12 lg:w-5/12 animate__animated animate__backInLeft
+        <div className="md:5/12 lg:w-5/12 animate__animated 
  animate__delay-3s">
           <img className="duration-200 hover:scale-105 hover:shadow-xl w-full shadow-lg shadow-gray-500/50  rounded-lg" src="porespe2.jpeg" alt="img" loading="lazy" width="" height=""/>
         </div>
