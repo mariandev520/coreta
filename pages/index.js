@@ -76,9 +76,9 @@ export default function Home() {
       }}
     >
      
-          <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">Una Opcion en todos los espacios </h2>
+          <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">Una Opción en todos los espacios</h2>
           </motion.div>
-          <p className="mt-6 text-gray-600">Elije armonizar tus espacios con colores y objetos que completen tu lugar</p>
+          <p className="mt-6 text-gray-600">Elige armonizar tus espacios con colores y objetos que completen tu lugar</p>
           <p className="mt-4 text-gray-600"> </p>
         </div>
       </div>
@@ -89,7 +89,7 @@ export default function Home() {
            <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                <div className="mr-auto place-self-center lg:col-span-7">
                    <h1 className="max-w-2xl mb-4 text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl dark:text-yellow-700">Objetos Artisticos </h1>
-                   <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Puedes optar por darle un toque distinto a Tus espacios pasea por nuestro market para encontrar lo necesitas para tu interior</p>
+                   <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Puedes optar por darle un toque diferente a tus espacios, pasea por nuestra Tienda para encontrar lo necesitas.</p>
                   
            
                    <a href="child" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-bg-yellow-500 dark:border-gray-100 dark:hover:bg-gray-200 dark:focus:ring-gray-1S00">
