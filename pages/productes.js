@@ -209,7 +209,7 @@ export default function productes() {
         <h2 className="text-sm font-medium text-gray-900">Detalles</h2>
 
         <div className="mt-4 space-y-6">
-          <p className="text-sm text-gray-600">Espejo pensado para espacios de reuniones rodeados de madera hogar a leña o quinchos</p>
+          <p className="text-sm text-gray-600">Espejo pensado para espacios de reuniones rodeados de madera Hogar a leña o Quinchos</p>
         </div>
       </div>
     </div>
